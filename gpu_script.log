@@ -1,0 +1,252 @@
+2025-08-28 17:43:12,918 - ERROR - Script terminated with error: 'Namespace' object has no attribute 'agol_link'
+2025-08-28 17:45:20,394 - INFO - Successfully connected to ArcGIS Online
+2025-08-28 17:45:20,400 - INFO - Processing archive: F:\Projet_Perso_Pro\CAPG_Script\PLU\Data\06069_PLU_20240625.zip
+2025-08-28 17:45:21,559 - INFO - Successfully extracted F:\Projet_Perso_Pro\CAPG_Script\PLU\Data\06069_PLU_20240625.zip to F:\Projet_Perso_Pro\CAPG_Script\PLU\Data\06069_PLU_20240625
+2025-08-28 17:46:41,498 - INFO - Successfully published LAYERS_GPU_06069_PLU_20240625
+2025-08-28 17:46:44,748 - ERROR - Failed to apply renderer to layer 0: [Errno 2] No such file or directory: './2024_07_19_PDG_Script_GPU_vers_AGOL/./symbology/drawinfo_pct.txt'
+2025-08-28 17:46:44,754 - ERROR - Failed to apply renderer to layer 1: [Errno 2] No such file or directory: './2024_07_19_PDG_Script_GPU_vers_AGOL/./symbology/drawinfo_lin.txt'
+2025-08-28 17:46:44,755 - ERROR - Failed to apply renderer to layer 2: [Errno 2] No such file or directory: './2024_07_19_PDG_Script_GPU_vers_AGOL/./symbology/drawinfo_surf.txt'
+2025-08-28 17:46:44,755 - ERROR - Failed to apply renderer to layer 3: [Errno 2] No such file or directory: './2024_07_19_PDG_Script_GPU_vers_AGOL/./symbology/drawinfo_zu.txt'
+2025-08-28 17:46:47,691 - INFO - Successfully created web map: LAYERS_GPU_06069_PLU_20240625_WebMap
+2025-08-28 17:46:48,320 - INFO - Available fields in 06069_PRESCRIPTION_SURF_20240625:
+2025-08-28 17:46:48,491 - INFO - Field name: FID
+2025-08-28 17:46:48,491 - INFO - Field name: LIBELLE
+2025-08-28 17:46:48,491 - INFO - Field name: TXT
+2025-08-28 17:46:48,492 - INFO - Field name: STYPEPSC
+2025-08-28 17:46:48,492 - INFO - Field name: NOMFIC
+2025-08-28 17:46:48,492 - INFO - Field name: URLFIC
+2025-08-28 17:46:48,493 - INFO - Field name: IDURBA
+2025-08-28 17:46:48,494 - INFO - Field name: DATVALID
+2025-08-28 17:46:48,495 - INFO - Field name: LIB_ATTR1
+2025-08-28 17:46:48,496 - INFO - Field name: LIB_VAL1
+2025-08-28 17:46:48,497 - INFO - Field name: LIB_ATTR2
+2025-08-28 17:46:48,497 - INFO - Field name: LIB_VAL2
+2025-08-28 17:46:48,498 - INFO - Field name: LIB_ATTR3
+2025-08-28 17:46:48,498 - INFO - Field name: LIB_VAL3
+2025-08-28 17:46:48,499 - INFO - Field name: LIB_ATTR4
+2025-08-28 17:46:48,500 - INFO - Field name: LIB_VAL4
+2025-08-28 17:46:48,501 - INFO - Field name: TYPEPSC
+2025-08-28 17:46:48,501 - INFO - Field name: Shape__Area
+2025-08-28 17:46:48,502 - INFO - Field name: Shape__Length
+2025-08-28 17:46:48,503 - INFO - Using fields: TYPEPSC, STYPEPSC
+2025-08-28 17:46:53,675 - ERROR - Error processing layer 06069_PRESCRIPTION_SURF_20240625: 'uniqueValueGroups'
+Traceback (most recent call last):
+  File "F:\Projet_Perso_Pro\CAPG_Script\PLU\Main.py", line 178, in filtre_rendrer_existant
+    filtered_renderer['uniqueValueGroups'][0]['classes'] = []
+  File "C:\Users\guita\AppData\Roaming\Python\Python310\site-packages\arcgis\_impl\common\_mixins.py", line 342, in __getitem__
+    return self._mapping[key]
+KeyError: 'uniqueValueGroups'
+2025-08-28 17:47:03,117 - INFO - Available fields in 06069_PRESCRIPTION_LIN_20240625:
+2025-08-28 17:47:03,559 - INFO - Field name: FID
+2025-08-28 17:47:03,559 - INFO - Field name: LIBELLE
+2025-08-28 17:47:03,560 - INFO - Field name: TXT
+2025-08-28 17:47:03,562 - INFO - Field name: STYPEPSC
+2025-08-28 17:47:03,563 - INFO - Field name: NOMFIC
+2025-08-28 17:47:03,565 - INFO - Field name: URLFIC
+2025-08-28 17:47:03,565 - INFO - Field name: IDURBA
+2025-08-28 17:47:03,566 - INFO - Field name: DATVALID
+2025-08-28 17:47:03,567 - INFO - Field name: LIB_ATTR1
+2025-08-28 17:47:03,569 - INFO - Field name: LIB_VAL1
+2025-08-28 17:47:03,570 - INFO - Field name: LIB_ATTR2
+2025-08-28 17:47:03,571 - INFO - Field name: LIB_VAL2
+2025-08-28 17:47:03,572 - INFO - Field name: LIB_ATTR3
+2025-08-28 17:47:03,573 - INFO - Field name: LIB_VAL3
+2025-08-28 17:47:03,573 - INFO - Field name: LIB_ATTR4
+2025-08-28 17:47:03,575 - INFO - Field name: LIB_VAL4
+2025-08-28 17:47:03,575 - INFO - Field name: TYPEPSC
+2025-08-28 17:47:03,576 - INFO - Field name: Shape__Length
+2025-08-28 17:47:03,578 - INFO - Using fields: TYPEPSC, STYPEPSC
+2025-08-28 17:47:04,582 - ERROR - Error processing layer 06069_PRESCRIPTION_LIN_20240625: 'uniqueValueGroups'
+Traceback (most recent call last):
+  File "F:\Projet_Perso_Pro\CAPG_Script\PLU\Main.py", line 178, in filtre_rendrer_existant
+    filtered_renderer['uniqueValueGroups'][0]['classes'] = []
+  File "C:\Users\guita\AppData\Roaming\Python\Python310\site-packages\arcgis\_impl\common\_mixins.py", line 342, in __getitem__
+    return self._mapping[key]
+KeyError: 'uniqueValueGroups'
+2025-08-28 17:47:04,583 - INFO - Available fields in 06069_PRESCRIPTION_PCT_20240625:
+2025-08-28 17:47:04,760 - INFO - Field name: FID
+2025-08-28 17:47:04,760 - INFO - Field name: LIBELLE
+2025-08-28 17:47:04,761 - INFO - Field name: TXT
+2025-08-28 17:47:04,763 - INFO - Field name: STYPEPSC
+2025-08-28 17:47:04,764 - INFO - Field name: NOMFIC
+2025-08-28 17:47:04,764 - INFO - Field name: URLFIC
+2025-08-28 17:47:04,766 - INFO - Field name: IDURBA
+2025-08-28 17:47:04,767 - INFO - Field name: DATVALID
+2025-08-28 17:47:04,768 - INFO - Field name: LIB_ATTR1
+2025-08-28 17:47:04,769 - INFO - Field name: LIB_VAL1
+2025-08-28 17:47:04,769 - INFO - Field name: LIB_ATTR2
+2025-08-28 17:47:04,771 - INFO - Field name: LIB_VAL2
+2025-08-28 17:47:04,771 - INFO - Field name: LIB_ATTR3
+2025-08-28 17:47:04,772 - INFO - Field name: LIB_VAL3
+2025-08-28 17:47:04,772 - INFO - Field name: LIB_ATTR4
+2025-08-28 17:47:04,774 - INFO - Field name: LIB_VAL4
+2025-08-28 17:47:04,774 - INFO - Field name: TYPEPSC
+2025-08-28 17:47:04,775 - INFO - Using fields: TYPEPSC, STYPEPSC
+2025-08-28 17:47:05,710 - ERROR - Error processing layer 06069_PRESCRIPTION_PCT_20240625: 'uniqueValueGroups'
+Traceback (most recent call last):
+  File "F:\Projet_Perso_Pro\CAPG_Script\PLU\Main.py", line 178, in filtre_rendrer_existant
+    filtered_renderer['uniqueValueGroups'][0]['classes'] = []
+  File "C:\Users\guita\AppData\Roaming\Python\Python310\site-packages\arcgis\_impl\common\_mixins.py", line 342, in __getitem__
+    return self._mapping[key]
+KeyError: 'uniqueValueGroups'
+2025-08-28 17:47:08,614 - INFO - Successfully updated webmap
+2025-08-28 17:49:06,028 - INFO - Successfully connected to ArcGIS Online
+2025-08-28 17:49:06,030 - INFO - Processing archive: F:\Projet_Perso_Pro\CAPG_Script\PLU\Data\06069_PLU_20240625.zip
+2025-08-28 17:49:07,151 - INFO - Successfully extracted F:\Projet_Perso_Pro\CAPG_Script\PLU\Data\06069_PLU_20240625.zip to F:\Projet_Perso_Pro\CAPG_Script\PLU\Data\06069_PLU_20240625
+2025-08-28 17:50:49,861 - INFO - Successfully published LAYERS_GPU_06069_PLU_20240625
+2025-08-28 17:50:53,665 - ERROR - Failed to apply renderer to layer 0: [Errno 2] No such file or directory: './PLU/./symbology/drawinfo_pct.txt'
+2025-08-28 17:50:53,665 - ERROR - Failed to apply renderer to layer 1: [Errno 2] No such file or directory: './PLU/./symbology/drawinfo_lin.txt'
+2025-08-28 17:50:53,665 - ERROR - Failed to apply renderer to layer 2: [Errno 2] No such file or directory: './PLU/./symbology/drawinfo_surf.txt'
+2025-08-28 17:50:53,666 - ERROR - Failed to apply renderer to layer 3: [Errno 2] No such file or directory: './PLU/./symbology/drawinfo_zu.txt'
+2025-08-28 17:50:57,015 - INFO - Successfully created web map: LAYERS_GPU_06069_PLU_20240625_WebMap
+2025-08-28 17:50:57,599 - INFO - Available fields in 06069_PRESCRIPTION_SURF_20240625:
+2025-08-28 17:50:57,746 - INFO - Field name: FID
+2025-08-28 17:50:57,747 - INFO - Field name: LIBELLE
+2025-08-28 17:50:57,747 - INFO - Field name: TXT
+2025-08-28 17:50:57,747 - INFO - Field name: STYPEPSC
+2025-08-28 17:50:57,748 - INFO - Field name: NOMFIC
+2025-08-28 17:50:57,748 - INFO - Field name: URLFIC
+2025-08-28 17:50:57,750 - INFO - Field name: IDURBA
+2025-08-28 17:50:57,751 - INFO - Field name: DATVALID
+2025-08-28 17:50:57,752 - INFO - Field name: LIB_ATTR1
+2025-08-28 17:50:57,754 - INFO - Field name: LIB_VAL1
+2025-08-28 17:50:57,754 - INFO - Field name: LIB_ATTR2
+2025-08-28 17:50:57,756 - INFO - Field name: LIB_VAL2
+2025-08-28 17:50:57,756 - INFO - Field name: LIB_ATTR3
+2025-08-28 17:50:57,758 - INFO - Field name: LIB_VAL3
+2025-08-28 17:50:57,759 - INFO - Field name: LIB_ATTR4
+2025-08-28 17:50:57,761 - INFO - Field name: LIB_VAL4
+2025-08-28 17:50:57,761 - INFO - Field name: TYPEPSC
+2025-08-28 17:50:57,764 - INFO - Field name: Shape__Area
+2025-08-28 17:50:57,764 - INFO - Field name: Shape__Length
+2025-08-28 17:50:57,766 - INFO - Using fields: TYPEPSC, STYPEPSC
+2025-08-28 17:51:02,420 - ERROR - Error processing layer 06069_PRESCRIPTION_SURF_20240625: 'uniqueValueGroups'
+Traceback (most recent call last):
+  File "F:\Projet_Perso_Pro\CAPG_Script\PLU\Main.py", line 178, in filtre_rendrer_existant
+    filtered_renderer['uniqueValueGroups'][0]['classes'] = []
+  File "C:\Users\guita\AppData\Roaming\Python\Python310\site-packages\arcgis\_impl\common\_mixins.py", line 342, in __getitem__
+    return self._mapping[key]
+KeyError: 'uniqueValueGroups'
+2025-08-28 17:51:02,421 - INFO - Available fields in 06069_PRESCRIPTION_LIN_20240625:
+2025-08-28 17:51:02,592 - INFO - Field name: FID
+2025-08-28 17:51:02,592 - INFO - Field name: LIBELLE
+2025-08-28 17:51:02,593 - INFO - Field name: TXT
+2025-08-28 17:51:02,595 - INFO - Field name: STYPEPSC
+2025-08-28 17:51:02,595 - INFO - Field name: NOMFIC
+2025-08-28 17:51:02,598 - INFO - Field name: URLFIC
+2025-08-28 17:51:02,599 - INFO - Field name: IDURBA
+2025-08-28 17:51:02,599 - INFO - Field name: DATVALID
+2025-08-28 17:51:02,602 - INFO - Field name: LIB_ATTR1
+2025-08-28 17:51:02,602 - INFO - Field name: LIB_VAL1
+2025-08-28 17:51:02,604 - INFO - Field name: LIB_ATTR2
+2025-08-28 17:51:02,604 - INFO - Field name: LIB_VAL2
+2025-08-28 17:51:02,606 - INFO - Field name: LIB_ATTR3
+2025-08-28 17:51:02,606 - INFO - Field name: LIB_VAL3
+2025-08-28 17:51:02,608 - INFO - Field name: LIB_ATTR4
+2025-08-28 17:51:02,608 - INFO - Field name: LIB_VAL4
+2025-08-28 17:51:02,610 - INFO - Field name: TYPEPSC
+2025-08-28 17:51:02,611 - INFO - Field name: Shape__Length
+2025-08-28 17:51:02,612 - INFO - Using fields: TYPEPSC, STYPEPSC
+2025-08-28 17:51:03,814 - ERROR - Error processing layer 06069_PRESCRIPTION_LIN_20240625: 'uniqueValueGroups'
+Traceback (most recent call last):
+  File "F:\Projet_Perso_Pro\CAPG_Script\PLU\Main.py", line 178, in filtre_rendrer_existant
+    filtered_renderer['uniqueValueGroups'][0]['classes'] = []
+  File "C:\Users\guita\AppData\Roaming\Python\Python310\site-packages\arcgis\_impl\common\_mixins.py", line 342, in __getitem__
+    return self._mapping[key]
+KeyError: 'uniqueValueGroups'
+2025-08-28 17:51:03,815 - INFO - Available fields in 06069_PRESCRIPTION_PCT_20240625:
+2025-08-28 17:51:03,980 - INFO - Field name: FID
+2025-08-28 17:51:03,981 - INFO - Field name: LIBELLE
+2025-08-28 17:51:03,984 - INFO - Field name: TXT
+2025-08-28 17:51:03,985 - INFO - Field name: STYPEPSC
+2025-08-28 17:51:03,986 - INFO - Field name: NOMFIC
+2025-08-28 17:51:03,987 - INFO - Field name: URLFIC
+2025-08-28 17:51:03,987 - INFO - Field name: IDURBA
+2025-08-28 17:51:03,988 - INFO - Field name: DATVALID
+2025-08-28 17:51:03,988 - INFO - Field name: LIB_ATTR1
+2025-08-28 17:51:03,989 - INFO - Field name: LIB_VAL1
+2025-08-28 17:51:03,990 - INFO - Field name: LIB_ATTR2
+2025-08-28 17:51:03,991 - INFO - Field name: LIB_VAL2
+2025-08-28 17:51:03,991 - INFO - Field name: LIB_ATTR3
+2025-08-28 17:51:03,992 - INFO - Field name: LIB_VAL3
+2025-08-28 17:51:03,992 - INFO - Field name: LIB_ATTR4
+2025-08-28 17:51:03,993 - INFO - Field name: LIB_VAL4
+2025-08-28 17:51:03,993 - INFO - Field name: TYPEPSC
+2025-08-28 17:51:03,994 - INFO - Using fields: TYPEPSC, STYPEPSC
+2025-08-28 17:51:04,620 - ERROR - Error processing layer 06069_PRESCRIPTION_PCT_20240625: 'uniqueValueGroups'
+Traceback (most recent call last):
+  File "F:\Projet_Perso_Pro\CAPG_Script\PLU\Main.py", line 178, in filtre_rendrer_existant
+    filtered_renderer['uniqueValueGroups'][0]['classes'] = []
+  File "C:\Users\guita\AppData\Roaming\Python\Python310\site-packages\arcgis\_impl\common\_mixins.py", line 342, in __getitem__
+    return self._mapping[key]
+KeyError: 'uniqueValueGroups'
+2025-08-28 17:51:07,595 - INFO - Successfully updated webmap
+2025-08-28 17:53:34,941 - INFO - Successfully connected to ArcGIS Online
+2025-08-28 17:53:34,944 - INFO - Processing archive: F:\Projet_Perso_Pro\CAPG_Script\PLU\Data\06069_PLU_20240625.zip
+2025-08-28 17:53:36,112 - INFO - Successfully extracted F:\Projet_Perso_Pro\CAPG_Script\PLU\Data\06069_PLU_20240625.zip to F:\Projet_Perso_Pro\CAPG_Script\PLU\Data\06069_PLU_20240625
+2025-08-28 17:54:45,377 - INFO - Successfully published LAYERS_GPU_06069_PLU_20240625
+2025-08-28 17:54:52,334 - INFO - Successfully created web map: LAYERS_GPU_06069_PLU_20240625_WebMap
+2025-08-28 17:54:53,194 - INFO - Available fields in 06069_PRESCRIPTION_SURF_20240625:
+2025-08-28 17:54:53,615 - INFO - Field name: FID
+2025-08-28 17:54:53,616 - INFO - Field name: LIBELLE
+2025-08-28 17:54:53,616 - INFO - Field name: TXT
+2025-08-28 17:54:53,616 - INFO - Field name: STYPEPSC
+2025-08-28 17:54:53,617 - INFO - Field name: NOMFIC
+2025-08-28 17:54:53,617 - INFO - Field name: URLFIC
+2025-08-28 17:54:53,617 - INFO - Field name: IDURBA
+2025-08-28 17:54:53,617 - INFO - Field name: DATVALID
+2025-08-28 17:54:53,617 - INFO - Field name: LIB_ATTR1
+2025-08-28 17:54:53,618 - INFO - Field name: LIB_VAL1
+2025-08-28 17:54:53,618 - INFO - Field name: LIB_ATTR2
+2025-08-28 17:54:53,618 - INFO - Field name: LIB_VAL2
+2025-08-28 17:54:53,618 - INFO - Field name: LIB_ATTR3
+2025-08-28 17:54:53,619 - INFO - Field name: LIB_VAL3
+2025-08-28 17:54:53,619 - INFO - Field name: LIB_ATTR4
+2025-08-28 17:54:53,620 - INFO - Field name: LIB_VAL4
+2025-08-28 17:54:53,621 - INFO - Field name: TYPEPSC
+2025-08-28 17:54:53,622 - INFO - Field name: Shape__Area
+2025-08-28 17:54:53,623 - INFO - Field name: Shape__Length
+2025-08-28 17:54:53,624 - INFO - Using fields: TYPEPSC, STYPEPSC
+2025-08-28 17:54:58,566 - INFO - Successfully filtered renderer for 06069_PRESCRIPTION_SURF_20240625
+2025-08-28 17:54:58,567 - INFO - Available fields in 06069_PRESCRIPTION_LIN_20240625:
+2025-08-28 17:54:58,981 - INFO - Field name: FID
+2025-08-28 17:54:58,982 - INFO - Field name: LIBELLE
+2025-08-28 17:54:58,985 - INFO - Field name: TXT
+2025-08-28 17:54:58,988 - INFO - Field name: STYPEPSC
+2025-08-28 17:54:58,988 - INFO - Field name: NOMFIC
+2025-08-28 17:54:58,990 - INFO - Field name: URLFIC
+2025-08-28 17:54:58,990 - INFO - Field name: IDURBA
+2025-08-28 17:54:58,991 - INFO - Field name: DATVALID
+2025-08-28 17:54:58,991 - INFO - Field name: LIB_ATTR1
+2025-08-28 17:54:58,993 - INFO - Field name: LIB_VAL1
+2025-08-28 17:54:58,993 - INFO - Field name: LIB_ATTR2
+2025-08-28 17:54:58,994 - INFO - Field name: LIB_VAL2
+2025-08-28 17:54:58,995 - INFO - Field name: LIB_ATTR3
+2025-08-28 17:54:58,995 - INFO - Field name: LIB_VAL3
+2025-08-28 17:54:58,997 - INFO - Field name: LIB_ATTR4
+2025-08-28 17:54:58,997 - INFO - Field name: LIB_VAL4
+2025-08-28 17:54:58,999 - INFO - Field name: TYPEPSC
+2025-08-28 17:54:58,999 - INFO - Field name: Shape__Length
+2025-08-28 17:54:59,001 - INFO - Using fields: TYPEPSC, STYPEPSC
+2025-08-28 17:54:59,638 - INFO - Successfully filtered renderer for 06069_PRESCRIPTION_LIN_20240625
+2025-08-28 17:54:59,638 - INFO - Available fields in 06069_PRESCRIPTION_PCT_20240625:
+2025-08-28 17:54:59,785 - INFO - Field name: FID
+2025-08-28 17:54:59,785 - INFO - Field name: LIBELLE
+2025-08-28 17:54:59,786 - INFO - Field name: TXT
+2025-08-28 17:54:59,789 - INFO - Field name: STYPEPSC
+2025-08-28 17:54:59,789 - INFO - Field name: NOMFIC
+2025-08-28 17:54:59,791 - INFO - Field name: URLFIC
+2025-08-28 17:54:59,791 - INFO - Field name: IDURBA
+2025-08-28 17:54:59,792 - INFO - Field name: DATVALID
+2025-08-28 17:54:59,793 - INFO - Field name: LIB_ATTR1
+2025-08-28 17:54:59,794 - INFO - Field name: LIB_VAL1
+2025-08-28 17:54:59,794 - INFO - Field name: LIB_ATTR2
+2025-08-28 17:54:59,795 - INFO - Field name: LIB_VAL2
+2025-08-28 17:54:59,796 - INFO - Field name: LIB_ATTR3
+2025-08-28 17:54:59,796 - INFO - Field name: LIB_VAL3
+2025-08-28 17:54:59,797 - INFO - Field name: LIB_ATTR4
+2025-08-28 17:54:59,798 - INFO - Field name: LIB_VAL4
+2025-08-28 17:54:59,798 - INFO - Field name: TYPEPSC
+2025-08-28 17:54:59,799 - INFO - Using fields: TYPEPSC, STYPEPSC
+2025-08-28 17:55:00,508 - INFO - Successfully filtered renderer for 06069_PRESCRIPTION_PCT_20240625
+2025-08-28 17:55:03,446 - INFO - Successfully updated webmap
