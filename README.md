@@ -25,12 +25,12 @@ Full dependencies are listed in:
 ## Installation
 
 1. Create a conda environment using the provided environment file:
-```sh
+```shell
 conda env create -f environment.yml
 ```
 
 2. Activate the environment:
-```sh
+```shell
 conda activate envArcgis
 ```
 
@@ -38,8 +38,8 @@ conda activate envArcgis
 
 Place your GPU PLU zip archive in the Data folder and run the main script:
 
-```sh
-python Main.py ./Path/to/GPUarchive.zip --link https://YourOrganizationURL.maps.arcgis.com --folder AGOL_folder_name --username your_AGOL_username --password your_AGOL_username
+```shell
+python Main.py .\Path\to\GPUarchive.zip --link "https://YourOrganizationURL.maps.arcgis.com" --folder AGOL_folder_name --username your_AGOL_username --password your_AGOL_username
 ```
 
 
