@@ -39,8 +39,9 @@ conda activate envArcgis
 Place your GPU PLU zip archive in the Data folder and run the main script:
 
 ```sh
-python Main.py
+python Main.py ./Path/to/GPUarchive.zip --link https://YourOrganizationURL.maps.arcgis.com --folder AGOL_folder_name --username your_AGOL_username --password your_AGOL_username
 ```
+
 
 ## Symbology
 
