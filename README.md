@@ -59,6 +59,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-Alban Guitard (2025)# gpu-cnig-webmap
+Alban Guitard (2025) 
 
 
