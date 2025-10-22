@@ -1,5 +1,3 @@
-WORK IN PROGRESS
-
 # PLU Map Generator
 
 Convert PLU (Plan Local d'Urbanisme) data from GPU (Géoportail de l'Urbanisme) zip archives into ArcGIS Online webmaps with CNIG DDU compliant symbology.
@@ -63,5 +61,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Alban Guitard (2025)# gpu-cnig-webmap
 
-WORK IN PROGRESS
 
